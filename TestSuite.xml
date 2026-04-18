@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Test Suite">
+    <test name="Test Cases">
+        <classes>
+            <class name="testNG.PriorityTest1" />
+             <class name="testNG.DependOnMethod" />
+
+        </classes>
+    </test>
+</suite>
+
