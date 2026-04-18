@@ -16,7 +16,7 @@ public class PriorityTest1 {
     public void testEdit(){
         System.out.println("Edit");
     }
-@Test(priority = 3)
+@Test(priority = 3,enabled = false)
     public void testDelete(){
         System.out.println("Delete");
     }
