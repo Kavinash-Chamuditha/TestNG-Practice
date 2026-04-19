@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="TestNG Parameter">
+    <parameter name="val1" value="60"></parameter>
+    <parameter name="val2" value="20"></parameter>
+    <test name="Parameter1">
+        <parameter name="val1" value="100"></parameter>
+        <parameter name="val2" value="500"></parameter>
+
+        <classes>
+            <class name="testNG.parameter.Parameter1"/>
+
+        </classes>
+    </test>
+
+    <test name="Parameter2">
+        <parameter name="val1" value="40"></parameter>
+        <parameter name="val2" value="10"></parameter>
+
+        <classes>
+
+            <class name="testNG.parameter.Parameter2"/>
+        </classes>
+    </test>
+</suite>
