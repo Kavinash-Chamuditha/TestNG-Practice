@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="listeners">
+
+    <listeners>
+        <listener class-name="testNG.listners.CustomListeners"></listener>
+    </listeners>
+
+    <test name="listeners Test">
+        <classes>
+            <class name="testNG.listners.ListenersTest"/>
+        </classes>
+    </test>
+
+</suite>
